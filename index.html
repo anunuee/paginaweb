@@ -10,7 +10,7 @@
     body {
       margin: 0;
       font-family: 'Quicksand', sans-serif;
-      background: #f0f8e6;
+      background: #e8f5e9;
       color: #2e7d32;
       scroll-behavior: smooth;}
     header {
@@ -128,9 +128,10 @@ text-align: center;
    <div style="text-align: center;">
   <h1 style="display: inline-flex; align-items: center; gap: 10px;">
     <img src="11785326.gif" alt="gif" style="height: 40px;">
-    Reciclaje y Reutilización de la basura
+    <img src="tituloo.gif" alt="gif central" style="height: 100px;"> <!-- Este es el nuevo gif central -->
     <img src="11785326.gif" alt="gif" style="height: 40px;">
   </h1>
+</div>
 </div>
   </header>
   <section class="video-section">
@@ -151,11 +152,22 @@ text-align: center;
   <img src="reciclar.jpg" alt="Símbolo de reciclaje" width="100" height="100">
   <h6 style="text-align:center;">Símbolo del reciclaje</h6>
   <img src="200.gif" alt="Reciclaje animado 1" width="120" height="120">
-  <div class="video-links">
-    <p><a href="https://youtu.be/-UFFFUTMlCw?feature=shared" target="_blank">Video 1 acerca del reciclaje</a></p>
-    <p><a href="https://youtu.be/eihwfPsDeWA?si=TaatAGwIXSz0mW3F" target="_blank">Video 2 acerca del reciclaje</a></p>
-    <p><a href="https://youtu.be/wlsXGwu4Mt8?feature=shared" target="_blank">Video 3 acerca del reciclaje</a></p>
+  <div class="video-section">
+  <h2>Primero: ¿Por qué el reciclaje es tan importante?</h2>
+  <div class="video-container">
+    <iframe width="560" height="315" src="VIDEO1.mp4" frameborder="0" allowfullscreen></iframe>
   </div>
+
+  <h2>Segundo: 5 razones por las que la recolección de basura es importante</h2>
+  <div class="video-container">
+    <iframe width="560" height="315" src="VIDEO2.mp4" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <h2>Tercero: Separación de la basura</h2>
+  <div class="video-container">
+    <iframe width="560" height="315" src="VIDEO3.mp4" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
   <h2>¿Por qué es importante la recolección de la basura?</h2>
   <img src="camióndebasura.jpg" alt="Camión de basura" width="150" height="150">
   <p>Se previenen malos olores, contaminación del agua y el suelo, además de evitar plagas y la propagación de enfermedades.</p>
@@ -368,6 +380,23 @@ function verificarRespuestas() {
   </video>
   <p>aunque este espacio es dirigido a los desechos es igualmente un foco de infeccion, que aunque se le da mantenimiento no se salva</p>
   </div>
+  <div class="contenedor">
+  <img src="imagengrande.jpg" alt="Imagen Grande" 
+       style="width: 100%; max-width: 1200px; border-radius: 24px; box-shadow: 0 6px 16px rgba(0,0,0,0.3);">
+</div>
+
+<div class="contenedor">
+  <img src="imagenmediana.jpg" alt="Imagen Mediana" 
+       style="width: 80%; max-width: 800px; border-radius: 16px; box-shadow: 0 12px 24px rgba(0,0,0,0.3);">
+</div>
+
+<!-- Nuevo espacio para video con fondo verde -->
+<div class="contenedor" style="background-color: #d4f7d4; padding: 40px 20px; border-radius: 20px; margin-top: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.2); text-align: center;">
+  <h2 style="color: #2d6a4f; margin-bottom: 20px;">Mira este video importante</h2>
+  <video controls style="width: 90%; max-width: 900px; border-radius: 16px; box-shadow: 0 8px 18px rgba(0,0,0,0.25);">
+    <source src="TUVIDEO.mp4" type="video/mp4">
+    Tu navegador no soporta el video.
+  </video>
 </div>
 <script>
   document.getElementById("continuarBtn").addEventListener("click", function () {
@@ -400,4 +429,4 @@ window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
 </script>
 </body>
- </html>
+</html>
